@@ -11,4 +11,4 @@ COPY . .
 
 RUN if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi
 
-CMD ["python", "module1_search_location.py"]
+CMD ["python", "--version"]
